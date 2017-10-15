@@ -1,0 +1,20 @@
+$(document).ready(function(){
+		$("#button1").click(function(){
+			$("#right2").slideToggle("slow");
+			$("#right1").slideToggle("slow");
+		});
+		$("#close").click(function(){
+			$("#right2").slideToggle("slow");
+			$("#right1").slideToggle("slow");
+		});
+		$("#pointer").click(function(){
+			$("#content").slideDown("slow");
+			$("#hide").slideUp("slow").hide("slow");
+		});
+		$("#photolink").click(function(){
+			$("#photos").slideDown("slow");
+		});
+		$("#close").click(function(){
+			$("#photos").slideUp("slow");
+		});
+});

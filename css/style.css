@@ -285,3 +285,30 @@ textarea::-webkit-input-placeholder {
 #submail::-webkit-input-placeholder {
     color: #fefefe;
 }
+
+@media only screen and (max-width: 738px) {
+	#left{
+		position: relative;
+	}
+	#right1{
+		display: none;
+	}
+	#right2{
+		display:block;
+		padding: 15px;
+	}
+	#button1{
+		display: none;
+	}
+	#close{
+		display: none;
+	}
+	footer{
+		position: relative;
+		margin-top: 15px;
+	}
+	#subscribe{
+		position: absolute;
+		margin-top: 0;
+	}
+}

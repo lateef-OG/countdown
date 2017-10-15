@@ -6,7 +6,6 @@ body{
 
 #content{
 	margin: 0;
-	left: 0;
 	padding: 0;
 }
 
@@ -155,12 +154,19 @@ footer, img{
 #subscribe{
 	position: absolute;
 	background-color: black;
-	padding: 80px 50px;
+	padding: 10px 5px;
 	color: #FEFEFE;
+	margin-top: 80px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.34);
+	display: none;
 }
 
-#subscribe, p, h3{
-	color: #FEFEFE;
+#subscribe1{
+	padding: 70px 45px;
+}
+
+#subhead, #subtext{
+	color: #fefefe;
 }
 
 body::-webkit-scrollbar-track{
@@ -181,6 +187,13 @@ body::-webkit-scrollbar-thumb{
 }
 
 #close{
+	float: right;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+#close1{
 	float: right;
 	top: 0;
 	right: 0;
@@ -254,4 +267,21 @@ textarea:focus{
 
 textarea::-webkit-input-placeholder {
     color: #a7a7a7;
+}
+
+#submail{
+	width: 100%;
+	padding: 15px 10px;
+	margin: 20px 0;
+	display: inline-block;
+	background-color: transparent;
+	font-size: 18px;
+	border: 1px solid #fefefe;
+	box-sizing: border-box;
+	color: #fefefe;
+	box-shadow: none;
+}
+
+#submail::-webkit-input-placeholder {
+    color: #fefefe;
 }

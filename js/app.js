@@ -7,6 +7,20 @@ $(document).ready(function(){
 			$("#right2").slideToggle("slow");
 			$("#right1").slideToggle("slow");
 		});
+		$("#button2").click(function(){
+			$("#subscribe").slideDown("slow");
+			$("#right").css("opacity", "0.5");
+			$("#left").css("opacity", "0.5");
+			$("#button1").prop("disabled", true);
+			$("#button2").prop("disabled", true);
+		});
+		$("#close1").click(function(){
+			$("#subscribe").slideUp("slow");
+			$("#right").css("opacity", "1");
+			$("#left").css("opacity", "1");
+			$("#button1").prop("disabled", false);
+			$("#button2").prop("disabled", false);
+		});
 });
 
 var countDownDate = new Date("Oct 22, 2017 00:00:00").getTime();
